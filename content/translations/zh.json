@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "candidateName": "Abeer Annab",
+    "home": "首页",
+    "about": "关于",
+    "priorities": "优先事项",
+    "getInvolved": "参与其中",
+    "voteInfo": "投票信息",
+    "contact": "联系方式"
+  },
+  "hero": {
+    "electionBanner": "🗳️ 莫尔登市大选 – 2025年11月4日星期二 • 投票站开放时间：上午7:00 – 晚上8:00",
+    "name": "Abeer Annab",
+    "position": "莫尔登学校委员会 — 第4选区",
+    "tagline": "强大的学校。包容的社区。真实的成果。"
+  },
+  "cta": {
+    "volunteer": "志愿者",
+    "donate": "捐款",
+    "learnMore": "了解更多"
+  },
+  "about": {
+    "title": "关于 Abeer",
+    "subtitle": "莫尔登学校委员会，第4选区 — 致力于每个学生的成功",
+    "bio": "Abeer Annab 在莫尔登生活了25年，这段时间她一直支持当地家庭并加强社区联系。她竞选莫尔登学校委员会（第4选区）是为了代表家庭、为学生发声，并解决莫尔登公立学校面临的实际挑战。Abeer 相信透明的领导和实际的解决方案。",
+    "highlight1": "学生成功 — 更好的课程、针对性支持和帮助学生茁壮成长的项目。",
+    "highlight2": "心理健康 — 更多辅导员、员工培训和无污名化的支持。",
+    "highlight3": "解决人员短缺 — 更快的招聘、更好的留用和更多面向学生的员工。"
+  },
+  "priorities": {
+    "title": "优先事项",
+    "priority1": {
+      "title": "为所有学生提供卓越的学术教育",
+      "description": "通过强大的课程、有针对性的干预措施和吸引每个学习者的项目来支持学术卓越。"
+    },
+    "priority2": {
+      "title": "心理健康与福祉",
+      "description": "确保学校提供可及的心理健康资源，增加辅导员人员配备，并定期开展宣传活动以消除污名化。"
+    },
+    "priority3": {
+      "title": "安全和支持性的学校",
+      "description": "加强安全措施，改善家庭与学校之间的沟通，并创建包容性环境，让所有学生都能学习。"
+    },
+    "priority4": {
+      "title": "社区和家庭参与",
+      "description": "增加家长参与，扩大语言访问，并确保家庭能够有意义地参与学校决策。"
+    },
+    "priority5": {
+      "title": "公共安全与城市合作",
+      "description": "倡导改善学校周边的安全措施、更好的照明以及学区与城市服务之间更强大的合作伙伴关系。"
+    },
+    "priority6": {
+      "title": "负担能力和住房稳定性",
+      "description": "支持帮助家庭实现住房稳定和获得基本需求的政策，因为学生在家庭安全时学习效果最好。"
+    },
+    "priority7": {
+      "title": "清真餐选项和承认穆斯林节日",
+      "description": "努力为穆斯林学生提供持续获得清真餐的途径，并在学校日历上承认像开斋节这样的穆斯林节日，这样学生就不必在信仰和教育之间做出选择。"
+    }
+  },
+  "getInvolved": {
+    "title": "参与其中",
+    "intro": "加入竞选活动：做志愿者、举办见面会或帮助电话拉票。小行动会产生大影响。",
+    "formTitle": "注册帮助"
+  },
+  "voteInfo": {
+    "title": "投票信息",
+    "preliminary": {
+      "title": "初选",
+      "date": "2025年9月16日星期二",
+      "eligibility": "只有第4和第6选区的注册选民在初选中投票。"
+    },
+    "general": {
+      "title": "大选",
+      "date": "2025年11月4日星期二",
+      "hours": "投票站开放时间：上午7:00 – 晚上8:00"
+    },
+    "resources": "如果您需要邮寄选票或想找到您的投票站位置，请联系莫尔登市书记员或访问联邦秘书网站。",
+    "links": {
+      "secretary": "联邦秘书",
+      "clerk": "莫尔登市书记员"
+    }
+  },
+  "contact": {
+    "title": "联系方式",
+    "email": "电子邮件：info@abeerformalden.org",
+    "phone": "电话："
+  },
+  "footer": {
+    "disclaimer": "由选举 Abeer Annab 委员会支付。",
+    "copyright": "© 2025 选举 Abeer Annab 委员会。"
+  }
+}

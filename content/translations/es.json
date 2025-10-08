@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "candidateName": "Abeer Annab",
+    "home": "Inicio",
+    "about": "Acerca de",
+    "priorities": "Prioridades",
+    "getInvolved": "Participa",
+    "voteInfo": "Información de Voto",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "electionBanner": "🗳️ Elección General de Malden – Martes, 4 de noviembre de 2025 • Las urnas abren de 7:00 AM a 8:00 PM",
+    "name": "Abeer Annab",
+    "position": "Para el Comité Escolar de Malden — Distrito 4",
+    "tagline": "Escuelas fuertes. Comunidades inclusivas. Resultados reales."
+  },
+  "cta": {
+    "volunteer": "Voluntario",
+    "donate": "Donar",
+    "learnMore": "Más Información"
+  },
+  "about": {
+    "title": "Acerca de Abeer",
+    "subtitle": "Para el Comité Escolar de Malden, Distrito 4 — Dedicada al Éxito de Cada Estudiante",
+    "bio": "Abeer Annab ha vivido en Malden durante 25 años y ha dedicado ese tiempo a apoyar a las familias locales y fortalecer los lazos comunitarios. Se postula para el Comité Escolar de Malden (Distrito 4) para representar a las familias, abogar por los estudiantes y enfrentar los desafíos reales que enfrentan las Escuelas Públicas de Malden. Abeer cree en el liderazgo transparente y las soluciones prácticas.",
+    "highlight1": "Éxito estudiantil — mejor currículo, apoyo enfocado y programas que ayuden a los estudiantes a prosperar.",
+    "highlight2": "Salud mental — más consejeros, capacitación del personal y apoyo sin estigma.",
+    "highlight3": "Abordar la escasez de personal — contratación más rápida, mejor retención y más personal de cara a los estudiantes."
+  },
+  "priorities": {
+    "title": "Prioridades",
+    "priority1": {
+      "title": "Excelencia Académica para Todos los Estudiantes",
+      "description": "Apoyar la excelencia académica a través de un currículo sólido, intervenciones específicas y programas que involucren a todos los estudiantes."
+    },
+    "priority2": {
+      "title": "Salud Mental y Bienestar",
+      "description": "Asegurar que las escuelas proporcionen recursos de salud mental accesibles, aumenten el personal de consejeros y realicen programas regulares de concientización para eliminar el estigma."
+    },
+    "priority3": {
+      "title": "Escuelas Seguras y Solidarias",
+      "description": "Fortalecer las medidas de seguridad, mejorar la comunicación entre las familias y las escuelas, y crear entornos inclusivos donde todos los estudiantes puedan aprender."
+    },
+    "priority4": {
+      "title": "Participación Comunitaria y Familiar",
+      "description": "Aumentar la participación de los padres, expandir el acceso a idiomas y asegurar que las familias puedan participar significativamente en las decisiones escolares."
+    },
+    "priority5": {
+      "title": "Seguridad Pública y Colaboración Municipal",
+      "description": "Abogar por medidas de seguridad mejoradas alrededor de las escuelas, mejor iluminación y asociaciones más fuertes entre el distrito y los servicios de la ciudad."
+    },
+    "priority6": {
+      "title": "Asequibilidad y Estabilidad de Vivienda",
+      "description": "Apoyar políticas que ayuden a las familias a lograr estabilidad de vivienda y acceso a necesidades básicas, porque los estudiantes aprenden mejor cuando sus hogares son seguros."
+    },
+    "priority7": {
+      "title": "Opciones de Comidas Halal y Reconocimiento de Festividades Musulmanas",
+      "description": "Trabajar hacia el acceso consistente a comidas halal para estudiantes musulmanes y reconocer festividades musulmanas como Eid en el calendario escolar para que los estudiantes no tengan que elegir entre fe y educación."
+    }
+  },
+  "getInvolved": {
+    "title": "Participa",
+    "intro": "Únete a la campaña: sé voluntario, organiza una reunión o ayuda con llamadas telefónicas. Las pequeñas acciones hacen una gran diferencia.",
+    "formTitle": "Regístrate para Ayudar"
+  },
+  "voteInfo": {
+    "title": "Información de Voto",
+    "preliminary": {
+      "title": "Elección Preliminar",
+      "date": "Martes, 16 de septiembre de 2025",
+      "eligibility": "Solo los votantes registrados en los Distritos 4 y 6 votan en la elección preliminar."
+    },
+    "general": {
+      "title": "Elección General",
+      "date": "Martes, 4 de noviembre de 2025",
+      "hours": "Las urnas abren: 7:00 AM – 8:00 PM"
+    },
+    "resources": "Si necesita una boleta por correo o desea encontrar su lugar de votación, comuníquese con el Secretario Municipal de Malden o visite el sitio web del Secretario del Commonwealth.",
+    "links": {
+      "secretary": "Secretario del Commonwealth",
+      "clerk": "Secretario Municipal de Malden"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "email": "Correo: info@abeerformalden.org",
+    "phone": "Teléfono:"
+  },
+  "footer": {
+    "disclaimer": "Pagado por el Comité para Elegir a Abeer Annab.",
+    "copyright": "© 2025 Comité para Elegir a Abeer Annab."
+  }
+}

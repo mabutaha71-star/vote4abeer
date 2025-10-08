@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "candidateName": "Abeer Annab",
+    "home": "Home",
+    "about": "About",
+    "priorities": "Priorities",
+    "getInvolved": "Get Involved",
+    "voteInfo": "Vote Info",
+    "contact": "Contact"
+  },
+  "hero": {
+    "electionBanner": "🗳️ Malden General Election – Tuesday, November 4, 2025 • Polls open 7:00 AM – 8:00 PM",
+    "name": "Abeer Annab",
+    "position": "For Malden School Committee — Ward 4",
+    "tagline": "Strong schools. Inclusive communities. Real results."
+  },
+  "cta": {
+    "volunteer": "Volunteer",
+    "donate": "Donate",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About Abeer",
+    "subtitle": "For Malden School Committee, Ward 4 — Dedicated to Every Student's Success",
+    "bio": "Abeer Annab has lived in Malden for 25 years and has spent that time supporting local families and strengthening community ties. She is running for the Malden School Committee (Ward 4) to represent families, advocate for students, and tackle the real challenges facing Malden Public Schools. Abeer believes in transparent leadership and practical solutions.",
+    "highlight1": "Student success — better curriculum, focused support, and programs that help students thrive.",
+    "highlight2": "Mental health — more counselors, staff training, and stigma-free support.",
+    "highlight3": "Address staffing shortages — quicker hiring, better retention, and more student-facing staff."
+  },
+  "priorities": {
+    "title": "Priorities",
+    "priority1": {
+      "title": "Academic Excellence for All Students",
+      "description": "Support academic excellence through strong curriculum, targeted interventions, and programs that engage every learner."
+    },
+    "priority2": {
+      "title": "Mental Health and Wellness",
+      "description": "Ensure schools provide accessible mental health resources, increase counselor staffing, and run regular awareness programs to remove stigma."
+    },
+    "priority3": {
+      "title": "Safe and Supportive Schools",
+      "description": "Strengthen safety measures, improve communication between families and schools, and create inclusive environments where all students can learn."
+    },
+    "priority4": {
+      "title": "Community and Family Engagement",
+      "description": "Increase parent involvement, expand language access, and ensure families can participate meaningfully in school decisions."
+    },
+    "priority5": {
+      "title": "Public Safety & City Collaboration",
+      "description": "Advocate for improved safety measures around schools, better lighting, and stronger partnerships between the district and city services."
+    },
+    "priority6": {
+      "title": "Affordability and Housing Stability",
+      "description": "Support policies that help families achieve housing stability and access basic needs, because students learn best when their homes are secure."
+    },
+    "priority7": {
+      "title": "Halal Meal Options & Recognition of Muslim Holidays",
+      "description": "Work toward consistent access to halal meals for Muslim students and recognizing Muslim holidays like Eid on the school calendar so students don't have to choose between faith and education."
+    }
+  },
+  "getInvolved": {
+    "title": "Get Involved",
+    "intro": "Join the campaign: volunteer, host a meet-and-greet, or help with phone banking. Small actions make a big difference.",
+    "formTitle": "Sign Up to Help"
+  },
+  "voteInfo": {
+    "title": "Vote Info",
+    "preliminary": {
+      "title": "Preliminary Election",
+      "date": "Tuesday, September 16, 2025",
+      "eligibility": "Only registered voters in Wards 4 and 6 vote in the preliminary election."
+    },
+    "general": {
+      "title": "General Election",
+      "date": "Tuesday, November 4, 2025",
+      "hours": "Polls open: 7:00 AM – 8:00 PM"
+    },
+    "resources": "If you need a mail-in ballot or want to find your polling location, contact the Malden City Clerk or visit the Secretary of the Commonwealth's website.",
+    "links": {
+      "secretary": "Secretary of the Commonwealth",
+      "clerk": "Malden City Clerk"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email: info@abeerformalden.org",
+    "phone": "Phone:"
+  },
+  "footer": {
+    "disclaimer": "Paid for by the Committee to Elect Abeer Annab.",
+    "copyright": "© 2025 Committee to Elect Abeer Annab."
+  }
+}
