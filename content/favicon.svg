@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generic favicon: purple circle with gold 'A' monogram -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Abeer logo favicon">
+  <rect width="64" height="64" rx="12" fill="#290367" />
+  <g transform="translate(4,6)">
+    <path d="M26 6 L36 46 L30 46 L28 36 L18 36 L16 46 L10 46 L20 6 Z" fill="#cfb34f"/>
+    <!-- simple stylized 'A' / abstract mark -->
+  </g>
+</svg>

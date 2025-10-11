@@ -32,8 +32,14 @@ body {
 :root {
     /* Colors */
     --color-primary: #290367;
-    --color-secondary: #0d9488;
-    --color-accent: #cfb34f;
+         /* Secondary now derived from the primary to pair with the gold accent.
+             Chosen as a mid purple that complements the deep primary. */
+         --color-secondary: #5c2b8a;
+         --color-accent: #cfb34f;
+         /* RGB helpers for rgba() uses */
+         --color-primary-rgb: 41, 3, 103;
+         --color-secondary-rgb: 92, 43, 138;
+         --color-accent-rgb: 207, 179, 79;
     --color-dark: #1f2937;
     --color-medium: #6b7280;
     --color-light: #f3f4f6;
@@ -41,11 +47,11 @@ body {
     --color-success: #10b981;
     --color-alert: #ef4444;
     
-    /* School-themed colors */
-    --color-school-blue: #3b82f6;
-    --color-school-green: #22c55e;
-    --color-school-yellow: #fbbf24;
-    --color-school-purple: #a855f7;
+    /* School-themed helper colors (aligned to purple/gold theme) */
+    --color-school-blue: rgba(var(--color-primary-rgb), 0.9);
+    --color-school-green: rgba(var(--color-secondary-rgb), 0.85);
+    --color-school-yellow: #f3d57a; /* softer gold */
+    --color-school-purple: #8a4db8;
     
     /* Spacing */
     --spacing-xs: 8px;
@@ -72,7 +78,7 @@ body {
     --shadow-lg: 0 8px 16px rgba(0,0,0,0.1);
     --shadow-xl: 0 12px 24px rgba(0,0,0,0.1);
     --shadow-glow-primary: 0 0 20px rgba(41, 3, 103, 0.4);
-    --shadow-glow-secondary: 0 0 20px rgba(13, 148, 136, 0.4);
+    --shadow-glow-secondary: 0 0 20px rgba(var(--color-secondary-rgb), 0.4);
 }
 
 /* ===================================
@@ -423,7 +429,7 @@ html[lang="zh"] {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--color-primary) 0%, #140233 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, rgba(var(--color-primary-rgb), 0.9) 100%);
     color: var(--color-white);
     position: relative;
     overflow: hidden;
@@ -448,9 +454,9 @@ html[lang="zh"] {
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #140233 0%, var(--color-primary) 100%);
+    background: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.9) 0%, var(--color-primary) 100%);
     transform: translateY(-3px) scale(1.03);
-    box-shadow: 0 10px 25px rgba(41, 3, 103, 0.4);
+    box-shadow: 0 10px 25px rgba(var(--color-primary-rgb), 0.4);
 }
 
 .btn-primary:active {
@@ -458,7 +464,7 @@ html[lang="zh"] {
 }
 
 .btn-secondary {
-    background: linear-gradient(135deg, var(--color-secondary) 0%, #0f766e 100%);
+    background: linear-gradient(135deg, var(--color-secondary) 0%, rgba(var(--color-secondary-rgb), 0.9) 100%);
     color: var(--color-white);
     position: relative;
     overflow: hidden;
@@ -483,9 +489,9 @@ html[lang="zh"] {
 }
 
 .btn-secondary:hover {
-    background: linear-gradient(135deg, #0f766e 0%, var(--color-secondary) 100%);
+    background: linear-gradient(135deg, rgba(var(--color-secondary-rgb), 0.9) 0%, var(--color-secondary) 100%);
     transform: translateY(-3px) scale(1.03);
-    box-shadow: 0 10px 25px rgba(13, 148, 136, 0.4);
+    box-shadow: 0 10px 25px rgba(var(--color-secondary-rgb), 0.4);
 }
 
 .btn-secondary:active {
@@ -493,7 +499,7 @@ html[lang="zh"] {
 }
 
 .btn-donate {
-    background: linear-gradient(135deg, var(--color-accent) 0%, #a58f3f 100%);
+    background: linear-gradient(135deg, var(--color-accent) 0%, rgba(var(--color-accent-rgb), 0.9) 100%);
     color: var(--color-white);
     position: relative;
     overflow: hidden;
@@ -519,9 +525,9 @@ html[lang="zh"] {
 }
 
 .btn-donate:hover {
-    background: linear-gradient(135deg, #a58f3f 0%, var(--color-accent) 100%);
+    background: linear-gradient(135deg, rgba(var(--color-accent-rgb), 0.9) 0%, var(--color-accent) 100%);
     transform: translateY(-3px) scale(1.03);
-    box-shadow: 0 10px 25px rgba(207, 179, 79, 0.5);
+    box-shadow: 0 10px 25px rgba(var(--color-accent-rgb), 0.5);
     animation: none;
 }
 
@@ -966,7 +972,7 @@ html[lang="zh"] {
     right: 0;
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, transparent 50%, rgba(13, 148, 136, 0.05) 50%);
+    background: linear-gradient(135deg, transparent 50%, rgba(var(--color-secondary-rgb), 0.05) 50%);
     pointer-events: none;
     transition: all var(--transition-normal);
 }
@@ -979,20 +985,20 @@ html[lang="zh"] {
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(90deg, var(--color-secondary), var(--color-school-blue));
+    background: linear-gradient(90deg, var(--color-secondary), rgba(var(--color-secondary-rgb), 0.65));
     transition: width var(--transition-normal);
 }
 
 .priority-card:hover {
     transform: translateY(-10px) rotate(-1deg);
-    box-shadow: 0 15px 35px rgba(30, 58, 138, 0.2);
+    box-shadow: 0 15px 35px rgba(var(--color-primary-rgb), 0.12);
     border-left-color: var(--color-secondary);
 }
 
 .priority-card:hover::before {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, transparent 50%, rgba(13, 148, 136, 0.1) 50%);
+    background: linear-gradient(135deg, transparent 50%, rgba(var(--color-secondary-rgb), 0.1) 50%);
 }
 
 .priority-card:hover::after {
@@ -1002,7 +1008,7 @@ html[lang="zh"] {
 .card-number {
     width: 48px;
     height: 48px;
-    background: linear-gradient(135deg, var(--color-secondary) 0%, #0d9488 100%);
+    background: linear-gradient(135deg, var(--color-secondary) 0%, rgba(var(--color-secondary-rgb), 0.95) 100%);
     color: var(--color-white);
     border-radius: 50%;
     display: flex;
@@ -1011,14 +1017,14 @@ html[lang="zh"] {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: var(--spacing-md);
-    box-shadow: 0 4px 8px rgba(13, 148, 136, 0.3);
+    box-shadow: 0 4px 8px rgba(var(--color-secondary-rgb), 0.3);
     position: relative;
     transition: all var(--transition-bounce);
 }
 
 .priority-card:hover .card-number {
     transform: rotate(360deg) scale(1.1);
-    box-shadow: 0 6px 16px rgba(13, 148, 136, 0.5);
+    box-shadow: 0 6px 16px rgba(var(--color-secondary-rgb), 0.5);
 }
 
 /* Apple/school bell style accent */
@@ -1071,7 +1077,7 @@ html[lang="zh"] {
    ================================ */
 .community {
     padding: var(--spacing-3xl) 0;
-    background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #f8f6ff 100%);
     position: relative;
     overflow: hidden;
 }
@@ -1084,8 +1090,8 @@ html[lang="zh"] {
     width: 100%;
     height: 100%;
     background-image:
-        radial-gradient(circle at 15% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 85% 80%, rgba(13, 148, 136, 0.05) 0%, transparent 50%);
+    radial-gradient(circle at 15% 20%, rgba(var(--color-primary-rgb), 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 85% 80%, rgba(var(--color-secondary-rgb), 0.05) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -1269,7 +1275,7 @@ html[lang="zh"] {
 
 .get-involved {
     padding: var(--spacing-3xl) 0;
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    background: linear-gradient(135deg, #f8f6ff 0%, #f0ecff 100%);
     position: relative;
     overflow: hidden;
 }
@@ -1283,8 +1289,8 @@ html[lang="zh"] {
     width: 100%;
     height: 100%;
     background-image:
-        radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 80% 70%, rgba(13, 148, 136, 0.05) 0%, transparent 50%);
+    radial-gradient(circle at 20% 30%, rgba(var(--color-primary-rgb), 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(var(--color-secondary-rgb), 0.05) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -1350,7 +1356,7 @@ html[lang="zh"] {
 .social-links a:hover {
     background: var(--color-secondary);
     transform: translateY(-6px) rotate(5deg);
-    box-shadow: 0 10px 20px rgba(13, 148, 136, 0.4);
+    box-shadow: 0 10px 20px rgba(var(--color-secondary-rgb), 0.4);
 }
 
 .social-links a:active {
@@ -1414,7 +1420,7 @@ html[lang="zh"] {
     transition: all var(--transition-bounce);
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(13, 148, 136, 0.15);
+    box-shadow: 0 4px 12px rgba(var(--color-secondary-rgb), 0.15);
 }
 
 .vote-card::before {
@@ -1424,7 +1430,7 @@ html[lang="zh"] {
     right: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(13, 148, 136, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(var(--color-secondary-rgb), 0.1) 0%, transparent 70%);
     opacity: 0;
     transition: opacity var(--transition-normal);
 }
@@ -1441,7 +1447,7 @@ html[lang="zh"] {
 
 .vote-card:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 15px 35px rgba(13, 148, 136, 0.3);
+    box-shadow: 0 15px 35px rgba(var(--color-secondary-rgb), 0.3);
     border-color: var(--color-primary);
     background: linear-gradient(135deg, #ffffff 0%, #dcfce7 100%);
 }
@@ -1515,7 +1521,7 @@ html[lang="zh"] {
     align-items: center;
     gap: var(--spacing-xs);
     padding: 12px 24px;
-    background: linear-gradient(135deg, var(--color-primary) 0%, #1e40af 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, rgba(var(--color-primary-rgb), 0.9) 100%);
     color: var(--color-white);
     border-radius: 8px;
     font-weight: 600;
@@ -1541,15 +1547,15 @@ html[lang="zh"] {
 }
 
 .resource-link:hover {
-    background: linear-gradient(135deg, var(--color-secondary) 0%, #0d9488 100%);
+    background: linear-gradient(135deg, var(--color-secondary) 0%, rgba(var(--color-secondary-rgb), 0.95) 100%);
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(13, 148, 136, 0.35);
+    box-shadow: 0 6px 16px rgba(var(--color-secondary-rgb), 0.35);
     color: var(--color-white);
 }
 
 .resource-link:active {
     transform: translateY(0px);
-    box-shadow: 0 3px 8px rgba(13, 148, 136, 0.3);
+    box-shadow: 0 3px 8px rgba(var(--color-secondary-rgb), 0.3);
 }
 
 .resource-link svg {
