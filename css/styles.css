@@ -31,9 +31,9 @@ body {
 
 :root {
     /* Colors */
-    --color-primary: #1e3a8a;
+    --color-primary: #290367;
     --color-secondary: #0d9488;
-    --color-accent: #f59e0b;
+    --color-accent: #cfb34f;
     --color-dark: #1f2937;
     --color-medium: #6b7280;
     --color-light: #f3f4f6;
@@ -71,7 +71,7 @@ body {
     --shadow-md: 0 4px 6px rgba(0,0,0,0.05);
     --shadow-lg: 0 8px 16px rgba(0,0,0,0.1);
     --shadow-xl: 0 12px 24px rgba(0,0,0,0.1);
-    --shadow-glow-primary: 0 0 20px rgba(30, 58, 138, 0.4);
+    --shadow-glow-primary: 0 0 20px rgba(41, 3, 103, 0.4);
     --shadow-glow-secondary: 0 0 20px rgba(13, 148, 136, 0.4);
 }
 
@@ -423,7 +423,7 @@ html[lang="zh"] {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--color-primary) 0%, #1e40af 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, #140233 100%);
     color: var(--color-white);
     position: relative;
     overflow: hidden;
@@ -448,9 +448,9 @@ html[lang="zh"] {
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #1e40af 0%, var(--color-primary) 100%);
+    background: linear-gradient(135deg, #140233 0%, var(--color-primary) 100%);
     transform: translateY(-3px) scale(1.03);
-    box-shadow: 0 10px 25px rgba(30, 58, 138, 0.4);
+    box-shadow: 0 10px 25px rgba(41, 3, 103, 0.4);
 }
 
 .btn-primary:active {
@@ -493,7 +493,7 @@ html[lang="zh"] {
 }
 
 .btn-donate {
-    background: linear-gradient(135deg, var(--color-accent) 0%, #d97706 100%);
+    background: linear-gradient(135deg, var(--color-accent) 0%, #a58f3f 100%);
     color: var(--color-white);
     position: relative;
     overflow: hidden;
@@ -519,9 +519,9 @@ html[lang="zh"] {
 }
 
 .btn-donate:hover {
-    background: linear-gradient(135deg, #d97706 0%, var(--color-accent) 100%);
+    background: linear-gradient(135deg, #a58f3f 0%, var(--color-accent) 100%);
     transform: translateY(-3px) scale(1.03);
-    box-shadow: 0 10px 25px rgba(245, 158, 11, 0.5);
+    box-shadow: 0 10px 25px rgba(207, 179, 79, 0.5);
     animation: none;
 }
 
@@ -2025,5 +2025,82 @@ button:focus {
     
     .hero-container {
         max-width: 1400px;
+    }
+}
+
+/* Policies Section improved spacing + animations */
+.policies {
+    padding: var(--spacing-lg) 0 var(--spacing-2xl) 0;
+}
+
+.policy-positions {
+    margin-top: var(--spacing-md);
+    display: grid;
+    gap: var(--spacing-md);
+    align-items: start;
+}
+
+.policy-block {
+    background: linear-gradient(180deg, rgba(41,3,103,0.04), rgba(207,179,79,0.02));
+    border-left: 6px solid var(--color-primary);
+    padding: calc(var(--spacing-md) + 8px);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.policy-block:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(41,3,103,0.12);
+}
+
+.policy-block::after {
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle at 30% 30%, rgba(207,179,79,0.12), transparent 40%);
+    transform: rotate(10deg);
+    pointer-events: none;
+}
+
+.policy-block .section-subtitle {
+    color: var(--color-primary);
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.policy-block p {
+    color: var(--color-dark);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Staggered reveal specifically for policy blocks */
+.policy-positions .policy-block {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.policy-positions .policy-block.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive layout */
+@media (min-width: 900px) {
+    .policy-positions {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .policy-block {
+        padding: calc(var(--spacing-sm) + 6px);
     }
 }

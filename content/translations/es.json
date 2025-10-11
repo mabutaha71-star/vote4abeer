@@ -67,7 +67,6 @@
     "title": "Información de Voto",
     "preliminary": {
       "title": "Elección Preliminar",
-      "date": "Martes, 16 de septiembre de 2025",
       "eligibility": "Solo los votantes registrados en los Distritos 4 y 6 votan en la elección preliminar."
     },
     "general": {
@@ -89,5 +88,17 @@
   "footer": {
     "disclaimer": "Pagado por el Comité para Elegir a Abeer Annab.",
     "copyright": "© 2025 Comité para Elegir a Abeer Annab."
+  }
+  ,
+  "policies": {
+    "title": "Políticas",
+    "policy1": {
+      "title": "Escuelas totalmente financiadas y centradas en los estudiantes",
+      "body": "Malden está atravesando una grave crisis fiscal. Lucharé por escuelas públicas totalmente financiadas y trabajaré para evitar despidos de educadores, porque los excelentes maestros y el personal de apoyo son la base de una educación de alta calidad. Como ciudad de entrada, debemos proteger las oportunidades para cada estudiante, en cada vecindario."
+    },
+    "policy2": {
+      "title": "Teléfonos móviles: un enfoque equilibrado impulsado por la comunidad",
+      "body": "Se está avanzando en una política estatal de teléfonos móviles \"bell-to-bell\", y las comunidades locales darán forma a su implementación. En Malden, aseguraré que las familias, los estudiantes y los educadores tengan voz. Muchos padres valoran la seguridad de que sus hijos tengan teléfonos durante el día; podemos equilibrar la seguridad, la concentración y el tiempo de aprendizaje mediante expectativas claras, excepciones de sentido común y controles regulares sobre lo que funciona."
+    }
   }
 }

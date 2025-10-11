@@ -67,7 +67,6 @@
     "title": "Vote Info",
     "preliminary": {
       "title": "Preliminary Election",
-      "date": "Tuesday, September 16, 2025",
       "eligibility": "Only registered voters in Wards 4 and 6 vote in the preliminary election."
     },
     "general": {
@@ -89,5 +88,17 @@
   "footer": {
     "disclaimer": "Paid for by the Committee to Elect Abeer Annab.",
     "copyright": "© 2025 Committee to Elect Abeer Annab."
+  }
+  ,
+  "policies": {
+    "title": "Policies",
+    "policy1": {
+      "title": "Fully Funded, Student-First Schools",
+      "body": "Malden is navigating a serious fiscal crunch. I’ll fight for fully funded public schools and work to avoid educator layoffs—because excellent teachers and support staff are the foundation of high-quality education. As a gateway city, we must protect opportunity for every student, in every neighborhood."
+    },
+    "policy2": {
+      "title": "Cell Phones: A Balanced, Community-Driven Approach",
+      "body": "A statewide “bell-to-bell” cell-phone policy is moving forward, and local communities will shape how it’s implemented. In Malden, I’ll ensure families, students, and educators all have a voice. Many parents value the safety of their children having phones during the day; we can balance safety, focus, and learning time through clear expectations, common-sense exceptions, and regular check-ins on what’s working."
+    }
   }
 }
